@@ -1,0 +1,274 @@
+body{
+   
+   background: "images/background.jpg"
+   no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color:#F0F0F0;
+    font-family: 'Paytone One', serif;
+    font-size: 25px;
+    height: 120px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:white; 
+    
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: #56A5EC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li span:hover {
+    background-color:white;
+    
+}
+.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mainArea{
+  background-color: #F0F0F0;
+  color: black;
+  height: auto;
+  width:800px;
+  float:left;
+  margin: 0 75px 0;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 50px;
+  line-height: 2;
+}
+h1{
+  color: #56A5EC;
+  font-size: 25px;
+  font-family: 'Numans', serif;
+  
+}
+
+hr { 
+    display: block;
+    margin-right: 70px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 3px;
+    
+}
+
+h2{
+  color:#292d33	;
+  font-size: 15px;
+  font-family: 'Arial', serif;
+  
+}
+
+
+.sideArea{
+  background-color: #F0F0F0;
+  color: black;
+  height: auto;
+  width:300px;
+  float: left;
+  margin: 35px  30px 0px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  line-height: 2;
+
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+//Slideshow container (Derivied from W3 Schools) 
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.text-js{
+  opacity: 0;
+}
+.cursor{
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+
+
+
+// Rest of CSS (Purely for this pen)
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+*{
+  margin: 0;
+  padding: 0;
+  boz-sizing: border-box;
+  font-family: "Open Sans", sans-serif
+}
+
+// Text Can be styled just like normal
+.headline{
+  margin: 20px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  
+
+
+}
+
+.credit{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-decoration: none;
+}
+
+
+.column {
+    float: left;
+    width: 75%;
+}
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.bottomArea{
+  background-color: #F0F0F0;
+  color: black;
+  height: auto;
+  float: center;
+ margin-top: 30px;
+ margin-left:300px;
+ margin-right:300px;
+  line-height: 2;
+  text-align:center;
+  padding-top: 40px;
+  padding-bottom:10px;
+   border-style: solid;
+    border-width: 10px;
+    border-color:white; 
+    
+
+}
+
+h3{
+  color:#8A2BE2;
+  font-size: 20px;
+  font-family: 'Numans', serif;
+  
+
+}
+
+
+
+
+
